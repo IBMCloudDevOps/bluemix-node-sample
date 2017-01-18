@@ -1,4 +1,15 @@
 language: node_js
 node_js:
   - "4"
-  
+
+deploy:
+    provider: cloudfoundry
+    skip_cleanup: true
+    manifest: manifest.yml
+    username: $BLUEMIX_USER
+    password: $BLUEMIX_PASS
+    api: "https://api.ng.bluemix.net"
+    organization: my_organization
+    space: my_space
+    on:
+      branch: master
