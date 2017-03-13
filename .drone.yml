@@ -5,4 +5,5 @@ pipeline:
     org: jcantosz@us.ibm.com
     space: dev
     user: ${USER}
+    password: ${PASSWORD}
 
