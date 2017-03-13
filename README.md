@@ -4,7 +4,7 @@ The Node.js Starter demonstrates a simple, reusable Node.js web application base
 
 ## Run the app locally
 
-1. [Install Node.js][https://nodejs.org/en/download/]
+1. [Install Node.js](https://nodejs.org/en/download/)
 2. Clone this repository
 3. Run `npm install` to install the app's dependencies
 4. Run `npm test` to lint all the source files
