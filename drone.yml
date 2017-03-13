@@ -1,0 +1,6 @@
+pipeline:
+  deploy:
+    image: ibmclouddevops/bluemix-drone-cloudfoundry
+    region: ng
+    org: jcantosz@us.ibm.com
+    space: dev
