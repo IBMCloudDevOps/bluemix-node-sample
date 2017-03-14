@@ -7,4 +7,5 @@ pipeline:
     user: ${USER}
     password: ${PASSWORD}
     domain: eu-gb.mybluemix.net
+    random_route: true
  
