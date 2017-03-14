@@ -5,4 +5,6 @@ pipeline:
     org: jcantosz@us.ibm.com
     space: dev
     domain: eu-gb.mybluemix.net
- 
+    user: ${USER}
+    password: ${PASSWORD} 
+
