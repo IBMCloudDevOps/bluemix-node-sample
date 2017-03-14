@@ -6,4 +6,5 @@ pipeline:
     space: dev
     user: ${USER}
     password: ${PASSWORD}
-
+    domain: eu-gb.mybluemix.net
+ 
