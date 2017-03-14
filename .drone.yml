@@ -1,7 +1,7 @@
 pipeline:
   deploy:
     image: ibmclouddevops/drone-bluemix-cloudfoundry
-    region: eu-gbg
+    region: eu-gb
     org: jcantosz@us.ibm.com
     space: dev
     user: ${USER}
