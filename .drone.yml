@@ -7,4 +7,6 @@ pipeline:
     domain: eu-gb.mybluemix.net
     user: ${USER}
     password: ${PASSWORD} 
+    when:
+      branch: master
 
