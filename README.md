@@ -1,4 +1,7 @@
-# Node.js Starter Overview
+# Bluemix Node.js App Sample
+The application repo that accompanies the recipe: [Use Travis CI to Continuously Deploy your Applications to IBM Bluemix](https://developer.ibm.com/recipes/tutorials/use-travis-ci-to-continuously-deploy-your-applications-to-ibm-bluemix/)
+
+## Node.js Starter Overview
 
 The Node.js Starter demonstrates a simple, reusable Node.js web application based on the Express framework.
 
