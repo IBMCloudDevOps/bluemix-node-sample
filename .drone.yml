@@ -1,0 +1,9 @@
+pipeline:
+  deploy:
+    image: ibmclouddevops/drone-bluemix-cloudfoundry
+    api: https://api.eu-gb.bluemix.net
+    org: jcantosz@us.ibm.com
+    space: dev
+    domain: eu-gb.mybluemix.net
+    when:
+      branch: master
