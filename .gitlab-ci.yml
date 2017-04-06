@@ -1,0 +1,19 @@
+stages:
+  - test
+  - deploy
+
+test:
+  image: node:4
+  stage: test
+  script:
+   - npm install
+   - npm test
+
+staging:
+  image: ruby:2.3
+  type: deploy
+  script:
+    - gem install dpl
+    - dpl --provider=bluemixcloudfoundry --username=$BLUEMIX_USER --password=$BLUEMIX_PASSWORD --organization=$BLUEMIX_ORG --space=$BLUEMIX_SPACE --skip-ssl-validation
+  only:
+  - master
